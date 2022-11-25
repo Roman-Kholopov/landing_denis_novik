@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration-line: underline;
+}
+
+.container {
+    width: 943px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 33px;
+    margin-bottom: 104px;
+}
+
+.header-nav {
+    border-bottom: 1px solid #828282;
+}
+
+.nav-list {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item a {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.list-item a:hover {
+    color: #828282;
+}
+
+.header-content {
+    padding-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    color: #070707;
+}
+
+.content-text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.content-lang {
+    transform: rotate(-90deg);
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+
+
+.about {
+    background: #F6F6F6;
+}
+
+.about-content {
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.about-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+}
+
+.about-text {
+    padding-top: 18px;
+}
+
+.about-text p {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.about-text p:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.skills-content {
+    padding-top: 91px;
+    margin-bottom: 110px;
+}
+
+.skills-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills-text {
+    padding-top: 70px;
+    margin-bottom: 84px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 206px;
+}
+
+.skills-item_img {
+    width: 89px;
+    text-align: center;
+}
+
+.skills-item_text {
+    text-align: center;
+}
+
+.portfolio {
+    background: #F6F6F6;
+}
+
+.portfolio-content {
+    padding-top: 100px;
+    padding-bottom: 96px;
+}
+
+.portfolio-title {
+    margin-bottom: 47px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.portfolio-item:not(:last-child) {
+    margin-bottom: 99px;
+}
+
+.portfolio-item::last-child {
+    margin-bottom: 96px;
+}
+
+.portfolio-item_img {
+    margin-bottom: 45px;
+    width: 936px;
+    align-items: center;
+}
+
+.portfolio-item_img img {
+    width: 100%;
+}
+
+.portfolio-link a {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.contacts {
+    padding-top: 114px;
+}
+
+.contacts-title {
+    margin-bottom: 20px;
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts-text {
+    margin-bottom: 30px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts-btn {
+    cursor: pointer;
+    margin: 0 auto 85px;
+    padding: 13px 0;
+    width: 180px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.contacts-btn span {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-list {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    width: 342px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-text {
+    margin-bottom: 123px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
